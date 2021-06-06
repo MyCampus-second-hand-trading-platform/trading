@@ -1,0 +1,18 @@
+server:
+  port: 8200
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8000/eureka
+
+spring:
+  application:
+    name: trading-user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/trading
+    username: root
+    password: root
+
